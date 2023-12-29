@@ -136,7 +136,7 @@ public class LeftPane  extends StackPane {
 
     public void openPane(StackPane pane) {  
 
-        
+        // işlemi Mainde tanımladığım SplitPane'de yapacak
         Main.getSplitPane().getItems().remove(1); // Remove the current right pane
         Main.getSplitPane().getItems().add(pane); // Add the new pane
         Main.getSplitPane().setDividerPositions(0.25); // Initial ratio, adjust as needed
