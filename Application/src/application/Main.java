@@ -29,7 +29,7 @@ public class Main extends Application {
         WeatherPane weatherPane = new WeatherPane();
 
 
-        // SplitPane
+        // SplitPane, Ekranı içine koyduğum pane sayısı kadar parçaya ayırmamı sağlıyor
         splitPane = new SplitPane();
         splitPane.getItems().addAll( new LeftPane(menuPane, loginPane, parametersPane, responsePane, weatherPane),menuPane);
         splitPane.setDividerPositions(0.25); // Initial ratio, adjust as needed
